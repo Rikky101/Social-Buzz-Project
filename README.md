@@ -7,14 +7,14 @@ The key challenge was to identify the top 5 content categories based on user eng
 
 ## Data Sources
  Out of the 7 datasets provided by the company, I identified 3 relevant datasets for analysis:
- 1. Reaction Types: This dataset contained details about the types of reactions, Sentiment, and score.
+ 1. Reaction Types: This dataset contained **3 columns and 17 rows**, details about the types of reactions, Sentiment, and score.
  
-2.  Reaction: Contained the reactions given by users to various content, including Content ID, user ID, and datetime.
+2.  Reaction: Contained **5 columns and 25554 rows**, the reactions given by users to various content, including Content ID, user ID, types of reations, and datetime.
  
-3. Content: This dataset captured details of the category about the content uploaded, including the content ID, content type and user ID.
+3. Content: This dataset has **3 columns and 1001 rows**, captured details of the category about the content uploaded, including the content ID, content type and user ID.
 
 ## Skills Demonstrated
-1. Data Transformation: Cleaned and prepared the datasets by removing irrelevant columns such as user ID, URL, fixing column titles, and ensuring the data was consistent.
+1. Data Transformation: Converted each dataset into table, to make it look more structured. Cleaned and prepared the datasets by removing irrelevant columns such as user ID, URL, fixing column titles, and ensuring the data was consistent. 
 
 2. VLOOKUP Function: Used to merge data from the three datasets, with the reaction datasets serving as the primary base.
    
@@ -23,6 +23,8 @@ The key challenge was to identify the top 5 content categories based on user eng
 4. Find and Replace Function: Employed to ensure consistency in the Category column, replacing repeated values for accurate analysis.
 
 5. Sorting: Sorted the data by total reaction scores to identify the top 5 most popular content categories.
+
+**First thing! I created a copy each of the original datasets as backup for the original datasets.**
 
 ## Data Transformation
 1. Reaction Dataset: I cleaned the dataset by deleting blank rows and removing the User ID column to focus on the essential data. Additionally, I edited the column title from "Type" to "Reaction Type" to make it more descriptive.[Reactions.csv](https://github.com/user-attachments/files/17717751/Reactions.csv)
