@@ -8,14 +8,15 @@ The key challenge was to identify the top 5 content categories based on user eng
 ## Data Sources
  Out of the 7 datasets provided by the company, I identified 3 relevant datasets for analysis:
  1. Reaction Types: This dataset contained **3 columns and 17 rows**, details about the types of reactions, Sentiment, and score.
+    <https://github.com/Rikky101/Social-Buzz-Project/blob/main/reaction2.png>
  
-2.  Reaction: Contained **5 columns and 25554 rows**, the reactions given by users to various content, including Content ID, user ID, types of reations, and datetime.
+ 2. Reaction: Contained **5 columns and 25554 rows**, the reactions given by users to various content, including Content ID, user ID, types of reations, and datetime.
+    
  
-3. Content: This dataset has **3 columns and 1001 rows**, captured details of the category about the content uploaded, including the content ID, content type and user ID.
+ 4. Content: This dataset has **3 columns and 1001 rows**, captured details of the category about the content uploaded, including the content ID, content type and user ID.
 
 ## Skills Demonstrated
 1. Data Transformation: Converted each dataset into table, to make it look more structured. Cleaned and prepared the datasets by removing irrelevant columns such as user ID, URL, fixing column titles, and ensuring the data was consistent.
-   ! [Reaction table](https://github.com/Rikky101/Social-Buzz-Project/blob/main/Reactions1.png)
 
 3. VLOOKUP Function: Used to merge data from the three datasets, with the reaction datasets serving as the primary base.
    
@@ -28,13 +29,23 @@ The key challenge was to identify the top 5 content categories based on user eng
 **First thing! I created a copy each of the original datasets as backup for the original datasets.**
 
 ## Data Transformation
-1. Reaction Dataset: I cleaned the dataset by deleting blank rows and removing the User ID column to focus on the essential data. Additionally, I edited the column title from "Type" to "Reaction Type" to make it more descriptive.[Reactions.csv](https://github.com/user-attachments/files/17717751/Reactions.csv)
+1. Reaction Dataset:
+   
+i. I converted the dataset to table, to make it look structured.
+
+ii. I deleted column 1 that adds no information to the dataset, so also the UserID column
+
+iii. Using the filter function, filtered and deleted blank rows of the type column.
+
+iv. Formatted column title of type to Reaction_type, making it more descriptive.   
+
+[Reactions.csv](https://github.com/user-attachments/files/17717751/Reactions.csv)
 
 
-2. Content Dataset: In this dataset, I deleted the URL and User ID columns to reduce unnecessary information. I also changed the column title from "Category" to "Content Category" and "type" to "Content Type" for clarity. To ensure consistency, I used the Find and Replace function to eliminate repeated values in the Category column.[Content.csv](https://github.com/user-attachments/files/17716960/Content.csv)
+3. Content Dataset: In this dataset, I deleted the URL and User ID columns to reduce unnecessary information. I also changed the column title from "Category" to "Content Category" and "type" to "Content Type" for clarity. To ensure consistency, I used the Find and Replace function to eliminate repeated values in the Category column.[Content.csv](https://github.com/user-attachments/files/17716960/Content.csv) 
 
 
-3. Reaction Types dataset: This dataset was cleaned and prepared for analysis without requiring further modifications. [ReactionTypes.csv](https://github.com/user-attachments/files/17716948/ReactionTypes.csv)
+4. Reaction Types dataset: This dataset was cleaned and prepared for analysis without requiring further modifications. [ReactionTypes.csv](https://github.com/user-attachments/files/17716948/ReactionTypes.csv)
 
 ## Analysis and Visualization
 The analysis aimed to identify the top 5 content categories based on user engagement by integrating data from the Reaction, Reaction Types, and Content datasets. Key functions such as VLOOKUP and SUMIF were employed to merge the datasets and calculate reaction scores.
