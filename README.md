@@ -14,15 +14,16 @@ The key challenge was to identify the top 5 content categories based on user eng
 3. Content: This dataset has **3 columns and 1001 rows**, captured details of the category about the content uploaded, including the content ID, content type and user ID.
 
 ## Skills Demonstrated
-1. Data Transformation: Converted each dataset into table, to make it look more structured. Cleaned and prepared the datasets by removing irrelevant columns such as user ID, URL, fixing column titles, and ensuring the data was consistent. 
+1. Data Transformation: Converted each dataset into table, to make it look more structured. Cleaned and prepared the datasets by removing irrelevant columns such as user ID, URL, fixing column titles, and ensuring the data was consistent.
+   ! [Reaction table](https://github.com/Rikky101/Social-Buzz-Project/blob/main/Reactions1.png)
 
-2. VLOOKUP Function: Used to merge data from the three datasets, with the reaction datasets serving as the primary base.
+3. VLOOKUP Function: Used to merge data from the three datasets, with the reaction datasets serving as the primary base.
    
-3. SUMIF Function: Applied to calculate the total reaction scores for each category, enabling us to rank categories based on scores.
+4. SUMIF Function: Applied to calculate the total reaction scores for each category, enabling us to rank categories based on scores.
 
-4. Find and Replace Function: Employed to ensure consistency in the Category column, replacing repeated values for accurate analysis.
+5. Find and Replace Function: Employed to ensure consistency in the Category column, replacing repeated values for accurate analysis.
 
-5. Sorting: Sorted the data by total reaction scores to identify the top 5 most popular content categories.
+6. Sorting: Sorted the data by total reaction scores to identify the top 5 most popular content categories.
 
 **First thing! I created a copy each of the original datasets as backup for the original datasets.**
 
