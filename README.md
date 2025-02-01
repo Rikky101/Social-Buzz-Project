@@ -26,26 +26,40 @@ The key challenge was to identify the top 5 content categories based on user eng
 
 6. Sorting: Sorted the data by total reaction scores to identify the top 5 most popular content categories.
 
-**First thing! I created a copy each of the original datasets as backup for the original datasets.**
+**First thing! I created a copy each of the original datasets as backup.**
 
 ## Data Transformation
 1. Reaction Dataset:
    
-i. I converted the dataset to table, to make it look structured.
+   i. Converted the dataset to table, to make it look structured.
 
-ii. I deleted column 1 that adds no information to the dataset, so also the UserID column
+   ii. Deleted column 1 that adds no information to the dataset, so also the UserID column
 
-iii. Using the filter function, filtered and deleted blank rows of the type column.
+   iii. Using the filter function, filtered and deleted blank rows of the type column.
 
-iv. Formatted column title of type to Reaction_type, making it more descriptive.   
+   iv. Formatted column title of type to Reaction_type, making it more descriptive.   
 
-[Reactions.csv](https://github.com/user-attachments/files/17717751/Reactions.csv)
-
-
-3. Content Dataset: In this dataset, I deleted the URL and User ID columns to reduce unnecessary information. I also changed the column title from "Category" to "Content Category" and "type" to "Content Type" for clarity. To ensure consistency, I used the Find and Replace function to eliminate repeated values in the Category column.[Content.csv](https://github.com/user-attachments/files/17716960/Content.csv) 
+    v. Used the text function to fornat the datetime column into date and time redpectively.
+Voila! The reaction dataset is cleaned and ready for analysis.
 
 
-4. Reaction Types dataset: This dataset was cleaned and prepared for analysis without requiring further modifications. [ReactionTypes.csv](https://github.com/user-attachments/files/17716948/ReactionTypes.csv)
+2. Content Dataset:
+   i. Converted the dataset to table, to make it look structured.
+
+   ii. Deleted column 1 that adds no information to the dataset, so also the UserID and URL column.
+
+   iii. Formatted "Type" and "category" to "Content type" and "Content category" respectively.
+
+   iv. There were inconsistencies in the "Content category", using the **Find & Replace function**, it was corrected to           give the dataset a clean and final look.
+
+3. Reaction Types dataset:
+
+   i. Converted the dataset to table, to make it look structured.
+
+   ii. Deleted column 1 that adds no information to the dataset.
+
+   iii. To make the field consistent, type column was formatted into "Reaction type" 
+
 
 ## Analysis and Visualization
 The analysis aimed to identify the top 5 content categories based on user engagement by integrating data from the Reaction, Reaction Types, and Content datasets. Key functions such as VLOOKUP and SUMIF were employed to merge the datasets and calculate reaction scores.
