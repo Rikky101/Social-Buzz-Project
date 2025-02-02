@@ -8,12 +8,15 @@ The key challenge was to identify the top 5 content categories based on user eng
 ## Data Sources
  Out of the 7 datasets provided by the company, I identified 3 relevant datasets for analysis:
  1. Reaction Types: This dataset contained **3 columns and 17 rows**, details about the types of reactions, Sentiment, and score.
-    <https://github.com/Rikky101/Social-Buzz-Project/blob/main/reaction2.png>
+      ![Image](https://github.com/user-attachments/assets/3baf4fc8-76a5-4f50-8d52-5167be70001c)
+
+ 3. Reaction: Contained **5 columns and 25554 rows**, the reactions given by users to various content, including Content ID, user ID, types of reations, and datetime.
+
+     ![Image](https://github.com/user-attachments/assets/0dcacea5-d837-4550-9ea3-455df22a52d6)
  
- 2. Reaction: Contained **5 columns and 25554 rows**, the reactions given by users to various content, including Content ID, user ID, types of reations, and datetime.
-    
- 
- 4. Content: This dataset has **3 columns and 1001 rows**, captured details of the category about the content uploaded, including the content ID, content type and user ID.
+ 5. Content: This dataset has **3 columns and 1001 rows**, captured details of the category about the content uploaded, including the content ID, content type and user ID.
+
+     ![Image](https://github.com/user-attachments/assets/6608c7e2-5231-47db-943e-566253bc5c3c)
 
 ## Skills Demonstrated
 1. Data Transformation: Converted each dataset into table, to make it look more structured. Cleaned and prepared the datasets by removing irrelevant columns such as user ID, URL, fixing column titles, and ensuring the data was consistent.
@@ -34,34 +37,54 @@ The key challenge was to identify the top 5 content categories based on user eng
    i. Converted the dataset to table, to make it look structured.
        ![Image](https://github.com/user-attachments/assets/2391fa17-cac6-4a55-9986-dc6d79314e84)
 
-   ii. Deleted column 1 that adds no information to the dataset, so also the UserID column
+   ii. Deleted "column 1" that adds no information to the dataset, so also the "UserID column".
+     ![Image](https://github.com/user-attachments/assets/9f371f91-f794-4cf8-9238-dff4fcfabbae)  ![Image](https://github.com/user-attachments/assets/c41a06f0-edd3-4efa-ae28-1e70948b94cc)
 
-   iii. Using the filter function, filtered and deleted blank rows of the type column.
+   iii. Using the filter function, filtered and deleted blank rows of the "type" column.
+      ![Image](https://github.com/user-attachments/assets/ae5a85e1-941b-4cce-8ab6-fcec5a13067f)
 
-   iv. Formatted column title of type to Reaction_type, making it more descriptive.   
+   iv. Formatted column title of type to "Reaction type", making it more descriptive.   
 
-    v. Used the text function to fornat the datetime column into date and time redpectively.
+    v. Used the **text** function to fornat the datetime column into date and time redpectively.
+      ![Image](https://github.com/user-attachments/assets/2d28085d-77ad-415b-97ef-2ef940b896ce)
+
+      ![Image](https://github.com/user-attachments/assets/0b266306-6d3c-4912-a044-ad8c983aab44)
+
 Voila! The reaction dataset is cleaned and ready for analysis.
+  
+   ![Image](https://github.com/user-attachments/assets/c5914fdf-f1b3-4b17-83b3-0357512ca456)
 
-
-3. Content Dataset:
+2. Content Dataset:
+   
    i. Converted the dataset to table, to make it look structured.
+      ![Image](https://github.com/user-attachments/assets/dd1552cb-c2bf-45a5-8974-09ef0875a21e)
 
-   ii. Deleted column 1 that adds no information to the dataset, so also the UserID and URL column.
-
+   ii. Deleted "column 1" that adds no information to the dataset, so also the "UserID" and "URL" column.
+    
    iii. Formatted "Type" and "category" to "Content type" and "Content category" respectively.
 
-   iv. There were inconsistencies in the "Content category", using the **Find & Replace function**, it was corrected to           give the dataset a clean and final look.
+   iv. There were inconsistencies in the "Content category",
+   
+   ![Image](https://github.com/user-attachments/assets/afae8a58-4857-4ed0-92db-56abdeba2f2c)
 
-4. Reaction Types dataset:
+     Using the **Find & Replace function**, it was corrected to give the dataset a clean and final look.
 
+     ![Image](https://github.com/user-attachments/assets/83787cae-ca41-4486-96d7-7c6787b1fc69)
+
+3. Reaction Types dataset:
+   
    i. Converted the dataset to table, to make it look structured.
+   
+![Image](https://github.com/user-attachments/assets/fbe64dc9-9ec4-41ae-a6dd-fe19d35ac0a8)
 
-   ii. Deleted column 1 that adds no information to the dataset.
+   ii. Deleted "column 1" that adds no information to the dataset.
+   
 
-   iii. To make the field consistent, type column was formatted into "Reaction type" 
-
-
+  ![Image](https://github.com/user-attachments/assets/8c4aa68d-4007-4e69-8496-7b675d7a4f85)
+        
+   iii. To make the field consistent, "type" column was formatted into "Reaction type"
+ 
+  ![Image](https://github.com/user-attachments/assets/f5e5c632-e75a-4283-b09a-300454eea4d1)
 ## Analysis and Visualization
 The analysis aimed to identify the top 5 content categories based on user engagement by integrating data from the Reaction, Reaction Types, and Content datasets. Key functions such as VLOOKUP and SUMIF were employed to merge the datasets and calculate reaction scores.
 
