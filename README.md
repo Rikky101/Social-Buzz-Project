@@ -32,6 +32,7 @@ The key challenge was to identify the top 5 content categories based on user eng
 1. Reaction Dataset:
    
    i. Converted the dataset to table, to make it look structured.
+       ![Image](https://github.com/user-attachments/assets/2391fa17-cac6-4a55-9986-dc6d79314e84)
 
    ii. Deleted column 1 that adds no information to the dataset, so also the UserID column
 
@@ -43,7 +44,7 @@ The key challenge was to identify the top 5 content categories based on user eng
 Voila! The reaction dataset is cleaned and ready for analysis.
 
 
-2. Content Dataset:
+3. Content Dataset:
    i. Converted the dataset to table, to make it look structured.
 
    ii. Deleted column 1 that adds no information to the dataset, so also the UserID and URL column.
@@ -52,7 +53,7 @@ Voila! The reaction dataset is cleaned and ready for analysis.
 
    iv. There were inconsistencies in the "Content category", using the **Find & Replace function**, it was corrected to           give the dataset a clean and final look.
 
-3. Reaction Types dataset:
+4. Reaction Types dataset:
 
    i. Converted the dataset to table, to make it look structured.
 
