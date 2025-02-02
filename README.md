@@ -65,26 +65,34 @@ Voila! The reaction dataset is cleaned and ready for analysis.
 
    iv. There were inconsistencies in the "Content category",
    
-   ![Image](https://github.com/user-attachments/assets/afae8a58-4857-4ed0-92db-56abdeba2f2c)
+     ![Image](https://github.com/user-attachments/assets/afae8a58-4857-4ed0-92db-56abdeba2f2c)
 
      Using the **Find & Replace function**, it was corrected to give the dataset a clean and final look.
 
      ![Image](https://github.com/user-attachments/assets/83787cae-ca41-4486-96d7-7c6787b1fc69)
+   
+   Ready for analysis!
+   
+     ![Image](https://github.com/user-attachments/assets/d02a30e8-fdc0-44ec-a88b-c2dab2a2c88b)
 
-3. Reaction Types dataset:
+4. Reaction Types dataset:
    
    i. Converted the dataset to table, to make it look structured.
    
-![Image](https://github.com/user-attachments/assets/fbe64dc9-9ec4-41ae-a6dd-fe19d35ac0a8)
+    ![Image](https://github.com/user-attachments/assets/fbe64dc9-9ec4-41ae-a6dd-fe19d35ac0a8)
 
    ii. Deleted "column 1" that adds no information to the dataset.
    
-
-  ![Image](https://github.com/user-attachments/assets/8c4aa68d-4007-4e69-8496-7b675d7a4f85)
+    ![Image](https://github.com/user-attachments/assets/8c4aa68d-4007-4e69-8496-7b675d7a4f85)
         
    iii. To make the field consistent, "type" column was formatted into "Reaction type"
  
+    ![Image](https://github.com/user-attachments/assets/f5e5c632-e75a-4283-b09a-300454eea4d1)
+
+Ready for analysis!
+
   ![Image](https://github.com/user-attachments/assets/f5e5c632-e75a-4283-b09a-300454eea4d1)
+  
 ## Analysis and Visualization
 The analysis aimed to identify the top 5 content categories based on user engagement by integrating data from the Reaction, Reaction Types, and Content datasets. Key functions such as VLOOKUP and SUMIF were employed to merge the datasets and calculate reaction scores.
 
