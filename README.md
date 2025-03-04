@@ -8,13 +8,14 @@ The key challenge was to identify the top 5 content categories based on user eng
 ## Data Sources
  Out of the 7 datasets provided by the company, I identified 3 relevant datasets for analysis:
  1. Reaction Types: This dataset contained **3 columns and 17 rows**, details about the types of reactions, Sentiment, and score.
+ 
       ![Image](https://github.com/user-attachments/assets/3baf4fc8-76a5-4f50-8d52-5167be70001c)
 
- 3. Reaction: Contained **5 columns and 25554 rows**, the reactions given by users to various content, including Content ID, user ID, types of reations, and datetime.
+ 2. Reaction: Contained **5 columns and 25554 rows**, the reactions given by users to various content, including Content ID, user ID, types of reations, and datetime.
 
      ![Image](https://github.com/user-attachments/assets/0dcacea5-d837-4550-9ea3-455df22a52d6)
  
- 5. Content: This dataset has **3 columns and 1001 rows**, captured details of the category about the content uploaded, including the content ID, content type and user ID.
+ 3. Content: This dataset has **3 columns and 1001 rows**, captured details of the category about the content uploaded, including the content ID, content type and user ID.
 
      ![Image](https://github.com/user-attachments/assets/6608c7e2-5231-47db-943e-566253bc5c3c)
 
@@ -98,12 +99,10 @@ The three cleaned datasets were merged into a single comprehensive dataset for a
 
 **Below is the final Overview of the Dataset**
 
-
-
+![Image](https://github.com/user-attachments/assets/9bca1e09-2d6a-47cf-97bc-b832e5457f5f)
 
 The SUMIF function was utilized on a separate sheet to calculate the total score for each content category. The categories were then ranked to determine the top five highest-performing ones.
-Other analysis were.....
-The analysis aimed to identify the top 5 content categories based on user engagement by integrating data from the Reaction, Reaction Types, and Content datasets. Key functions such as VLOOKUP and SUMIF were employed to merge the datasets and calculate reaction scores.
+Other analysis were....
 
 Visualizations, including bar charts, were used to showcase the top 5 content categories, reaction types, and the content type with the highest user engagement, providing valuable insights for Social Buzz. Additionally, slicers and timelines were added using the sentiment and datetime columns, respectively, to enhance data interactivity.[Social Buzz Project.xlsx](https://github.com/user-attachments/files/17717611/Social.Buzz.Project.xlsx)
 
