@@ -102,7 +102,7 @@ The three cleaned datasets were merged into a single comprehensive dataset for a
 
 
 The SUMIF function was utilized on a separate sheet to calculate the total score for each content category. The categories were then ranked to determine the top five highest-performing ones.
-
+Other analysis were.....
 The analysis aimed to identify the top 5 content categories based on user engagement by integrating data from the Reaction, Reaction Types, and Content datasets. Key functions such as VLOOKUP and SUMIF were employed to merge the datasets and calculate reaction scores.
 
 Visualizations, including bar charts, were used to showcase the top 5 content categories, reaction types, and the content type with the highest user engagement, providing valuable insights for Social Buzz. Additionally, slicers and timelines were added using the sentiment and datetime columns, respectively, to enhance data interactivity.[Social Buzz Project.xlsx](https://github.com/user-attachments/files/17717611/Social.Buzz.Project.xlsx)
