@@ -53,14 +53,9 @@ Voila! The reaction dataset is cleaned and ready for analysis. [Reaction_Dataset
 
 Ready for analysis! [Reactiontype_Datatset](https://github.com/user-attachments/assets/f5e5c632-e75a-4283-b09a-300454eea4d1)
   
-## Analysis
-The three cleaned datasets were merged into a single comprehensive dataset for analysis and visualization, with **Vlook up function**.
+## Analysis and Visualization
+The three cleaned datasets were merged into a single comprehensive dataset for analysis and visualization, with **Vlook up function**. [Final_Dataset](https://github.com/user-attachments/assets/9bca1e09-2d6a-47cf-97bc-b832e5457f5f)
 
-**Below is the final Overview of the Dataset**
-
-![Image](https://github.com/user-attachments/assets/9bca1e09-2d6a-47cf-97bc-b832e5457f5f)
-
-## Analysis and visualization
 The SUMIF function was utilized on a separate sheet to calculate the total score for each content category. The categories were then ranked to determine the top five highest-performing ones.
 Other analysis were....
 
