@@ -8,16 +8,8 @@ The key challenge was to identify the top 5 content categories based on user eng
 ## Data Sources
  Out of the 7 datasets provided by the company, I identified 3 relevant datasets for analysis:
  1. Reaction Types: This dataset contained **3 columns and 17 rows**, details about the types of reactions, Sentiment, and score.
- 
-      ![Image](https://github.com/user-attachments/assets/3baf4fc8-76a5-4f50-8d52-5167be70001c)
-
  2. Reaction: Contained **5 columns and 25554 rows**, the reactions given by users to various content, including Content ID, user ID, types of reations, and datetime.
-
-     ![Image](https://github.com/user-attachments/assets/0dcacea5-d837-4550-9ea3-455df22a52d6)
- 
  3. Content: This dataset has **3 columns and 1001 rows**, captured details of the category about the content uploaded, including the content ID, content type and user ID.
-
-     ![Image](https://github.com/user-attachments/assets/6608c7e2-5231-47db-943e-566253bc5c3c)
 
 ## Skills Demonstrated
 1. Data Transformation: Converted each dataset into table, to make it look more structured. Cleaned and prepared the datasets by removing irrelevant columns such as user ID, URL, fixing column titles, and ensuring the data was consistent.
@@ -26,7 +18,7 @@ The key challenge was to identify the top 5 content categories based on user eng
    
 4. SUMIF Function: Applied to calculate the total reaction scores for each category, enabling us to rank categories based on scores.
 
-5. Find and Replace Function: Employed to ensure consistency in the Category column, replacing repeated values for accurate analysis.
+5. Find and Replace Function: Employed to ensure consistency in the "Category" column, replacing repeated values for accurate analysis.
 
 6. Sorting: Sorted the data by total reaction scores to identify the top 5 most popular content categories.
 
@@ -36,41 +28,21 @@ The key challenge was to identify the top 5 content categories based on user eng
 1. Reaction Dataset:
    
    i. Converted the dataset to table, to make it look structured.
-       ![Image](https://github.com/user-attachments/assets/2391fa17-cac6-4a55-9986-dc6d79314e84)
-
    ii. Deleted "column 1" that adds no information to the dataset, so also the "UserID column".
-     ![Image](https://github.com/user-attachments/assets/9f371f91-f794-4cf8-9238-dff4fcfabbae)  ![Image](https://github.com/user-attachments/assets/c41a06f0-edd3-4efa-ae28-1e70948b94cc)
-
    iii. Using the filter function, filtered and deleted blank rows of the "type" column.
-      ![Image](https://github.com/user-attachments/assets/ae5a85e1-941b-4cce-8ab6-fcec5a13067f)
-
    iv. Formatted column title of type to "Reaction type", making it more descriptive.   
-
     v. Used the **text** function to fornat the datetime column into date and time redpectively.
-      ![Image](https://github.com/user-attachments/assets/2d28085d-77ad-415b-97ef-2ef940b896ce)
-
-      ![Image](https://github.com/user-attachments/assets/0b266306-6d3c-4912-a044-ad8c983aab44)
-
+   
 Voila! The reaction dataset is cleaned and ready for analysis.
   
    ![Image](https://github.com/user-attachments/assets/c5914fdf-f1b3-4b17-83b3-0357512ca456)
 
-2. Content Dataset:
+3. Content Dataset:
    
    i. Converted the dataset to table, to make it look structured.
-      ![Image](https://github.com/user-attachments/assets/dd1552cb-c2bf-45a5-8974-09ef0875a21e)
-
    ii. Deleted "column 1" that adds no information to the dataset, so also the "UserID" and "URL" column.
-    
    iii. Formatted "Type" and "category" to "Content type" and "Content category" respectively.
-
-   iv. There were inconsistencies in the "Content category",
-   
-     ![Image](https://github.com/user-attachments/assets/afae8a58-4857-4ed0-92db-56abdeba2f2c)
-
-     Using the **Find & Replace function**, it was corrected to give the dataset a clean and final look.
-
-     ![Image](https://github.com/user-attachments/assets/83787cae-ca41-4486-96d7-7c6787b1fc69)
+   iv. There were inconsistencies in the "Content category", using the **Find & Replace function**, it was corrected to give the dataset a clean and final look.
    
    Ready for analysis!
    
@@ -79,16 +51,8 @@ Voila! The reaction dataset is cleaned and ready for analysis.
 4. Reaction Types dataset:
    
    i. Converted the dataset to table, to make it look structured.
-   
-    ![Image](https://github.com/user-attachments/assets/fbe64dc9-9ec4-41ae-a6dd-fe19d35ac0a8)
-
    ii. Deleted "column 1" that adds no information to the dataset.
-   
-    ![Image](https://github.com/user-attachments/assets/8c4aa68d-4007-4e69-8496-7b675d7a4f85)
-        
    iii. To make the field consistent, "type" column was formatted into "Reaction type"
- 
-    ![Image](https://github.com/user-attachments/assets/f5e5c632-e75a-4283-b09a-300454eea4d1)
 
 Ready for analysis!
 
@@ -101,10 +65,11 @@ The three cleaned datasets were merged into a single comprehensive dataset for a
 
 ![Image](https://github.com/user-attachments/assets/9bca1e09-2d6a-47cf-97bc-b832e5457f5f)
 
+## Analysis and visualization
 The SUMIF function was utilized on a separate sheet to calculate the total score for each content category. The categories were then ranked to determine the top five highest-performing ones.
 Other analysis were....
 
-Visualizations, including bar charts, were used to showcase the top 5 content categories, reaction types, and the content type with the highest user engagement, providing valuable insights for Social Buzz. Additionally, slicers and timelines were added using the sentiment and datetime columns, respectively, to enhance data interactivity.[Social Buzz Project.xlsx](https://github.com/user-attachments/files/17717611/Social.Buzz.Project.xlsx)
+Visualizations, including bar charts, were used to showcase the top 5 content categories, reaction types, and the content type with the highest user engagement, providing valuable insights for Social Buzz. Additionally, slicers and timelines were added using the sentiment and datetime columns, respectively, to enhance data interactivity.
 
 
 ## Conclusion and Recommendtaion
@@ -112,7 +77,8 @@ Visualizations, including bar charts, were used to showcase the top 5 content ca
 Recommendations include:
  1. Continue prioritizing content in the top-performing category (Animal Content)
  2. Given that the heart reaction was the most commonly used, future content could be designed to elicit positive emotional responses from users, increasing overall engagement.
- 3. The "Scared" reaction was predominantly associated with negative responses. Social Buzz should consider minimizing content that may trigger this reaction to avoid negatively impacting user sentiment.
+ 3. The "Scared" reaction was predominantly associated with negative responses. Social Buzz should consider minimizing content that may trigger this reaction to avoid negatively 
+    impacting user sentiment.
  4.  Regularly track engagement metrics over time to identify emerging trends and adjust the content strategy accordingly.
 
 
