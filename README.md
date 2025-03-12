@@ -43,9 +43,7 @@ Voila! The reaction dataset is cleaned and ready for analysis. [Reaction_Dataset
    iv. There were inconsistencies in the "Content category", using the **Find & Replace function**, it was corrected to give the dataset 
        a clean and final look.
    
-   Ready for analysis!
-   
-     ![Image](https://github.com/user-attachments/assets/d02a30e8-fdc0-44ec-a88b-c2dab2a2c88b)
+   Ready for analysis! [Content_Dataset](https://github.com/user-attachments/assets/d02a30e8-fdc0-44ec-a88b-c2dab2a2c88b)
 
 3. Reaction Types dataset:
    
@@ -53,9 +51,7 @@ Voila! The reaction dataset is cleaned and ready for analysis. [Reaction_Dataset
    ii. Deleted "column 1" that adds no information to the dataset.
    iii. To make the field consistent, "type" column was formatted into "Reaction type"
 
-Ready for analysis!
-
-  ![Image](https://github.com/user-attachments/assets/f5e5c632-e75a-4283-b09a-300454eea4d1)
+Ready for analysis! [Reactiontype_Datatset](https://github.com/user-attachments/assets/f5e5c632-e75a-4283-b09a-300454eea4d1)
   
 ## Analysis
 The three cleaned datasets were merged into a single comprehensive dataset for analysis and visualization, with **Vlook up function**.
