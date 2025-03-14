@@ -33,7 +33,7 @@ The key challenge was to identify the top 5 content categories based on user eng
    
    iii. Using the filter function, filtered and deleted blank rows of the "type" column.
    
-   iv. Formatted column title of type to "Reaction type", making it more descriptive.
+   iv. Formatted column title of type to "Reaction_type", making it more descriptive.
      
     v. Used the **text** function to fornat the datetime column into date and time redpectively.
    
@@ -45,9 +45,9 @@ Voila! The reaction dataset is cleaned and ready for analysis. [Reaction_Dataset
    
    ii. Deleted "column 1" that adds no information to the dataset, so also the "UserID" and "URL" column.
    
-   iii. Formatted "Type" and "category" to "Content type" and "Content category" respectively.
+   iii. Formatted "Type" and "category" to "Content_type" and "Content_category" respectively.
    
-   iv. There were inconsistencies in the "Content category", using the **Find & Replace function**, it was corrected to give the dataset 
+   iv. There were inconsistencies in the "Content_category", using the **Find & Replace function**, it was corrected to give the dataset 
        a clean and final look.
    
    Ready for analysis! [Content_Dataset](https://github.com/Rikky101/Social-Buzz-Project/blob/main/Content_cleaned.xlsx)
@@ -58,7 +58,7 @@ Voila! The reaction dataset is cleaned and ready for analysis. [Reaction_Dataset
    
    ii. Deleted "column 1" that adds no information to the dataset.
 
-   iii. To make the field consistent, "type" column was formatted into "Reaction type"
+   iii. To make the field consistent, "type" column was formatted into "Reaction_type"
 
 Ready for analysis! [Reactiontype_Datatset](https://github.com/Rikky101/Social-Buzz-Project/blob/main/ReactionTypes_cleaned.xlsx)
   
@@ -68,14 +68,14 @@ The three cleaned datasets were merged into a single comprehensive dataset for a
 Visualizations, including bar charts, were used to showcase the top 5 content categories, reaction types, and the content type with the highest user engagement and score, providing valuable insights for Social Buzz. Additionally, slicers and timelines were added using the sentiment and datetime columns, respectively, to enhance data interactivity. This can be viewed in the dashboard created for Social Buzz    ****. 
 
 
-## Conclusion and Recommendation *****
- ***8The analysis revealed that "animal content category" received the highest user engagement with 1,897 reactions. *****The "super-love reaction" and "adore" was identified as the most prevalent, indicating strong positive audience sentiment. Futhermore, audio and photo content types ***** higher compared to videos and GIFs, highlighting format preferences. 
+## Conclusion and Recommendation
+ The analysis revealed that "animal content category" received the highest user engagement with 1,897 reactions. The "adore reaction" was identified as the most prevalent, indicating strong positive audience sentiment. Futhermore, "audio" and photo "content types" higher compared to videos and GIFs, highlighting format preferences. 
  
 Recommendations include:
  1. Continue prioritizing content in the top-performing category (Animal Content).
- 2. Given that the "super-love reaction" was the most commonly used, future content could be designed to elicit positive emotional responses from users, increasing overall engagement.
+ 2. Given that the "adore reaction" was the most commonly used, future content could be designed to elicit positive emotional responses from users, increasing overall engagement.
  3. Since "audio and photo content" perform best, Social Buzz Media should focus on optimizing these formats in future campaigns.
- 4.  Regularly track engagement metrics over time to identify emerging trends and adjust the content strategy accordingly.
+ 4. Regularly track engagement metrics over time to identify emerging trends and adjust the content strategy accordingly.
 
 
 
