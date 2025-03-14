@@ -55,7 +55,9 @@ Voila! The reaction dataset is cleaned and ready for analysis. [Reaction_Dataset
 4. Reaction Types dataset:
    
    i. Converted the dataset to table, to make it look structured.
+   
    ii. Deleted "column 1" that adds no information to the dataset.
+
    iii. To make the field consistent, "type" column was formatted into "Reaction type"
 
 Ready for analysis! [Reactiontype_Datatset](https://github.com/Rikky101/Social-Buzz-Project/blob/main/ReactionTypes_cleaned.xlsx)
@@ -63,16 +65,16 @@ Ready for analysis! [Reactiontype_Datatset](https://github.com/Rikky101/Social-B
 ## Analysis and Visualization
 The three cleaned datasets were merged into a single comprehensive dataset for analysis and visualization, with **Vlook up function**. [Final_Dataset](https://github.com/Rikky101/Social-Buzz-Project/blob/main/Final%20dataset.xlsx)
 
-Visualizations, including bar charts, were used to showcase the top 5 content categories, reaction types, and the content type with the highest user engagement, providing valuable insights for Social Buzz. Additionally, slicers and timelines were added using the sentiment and datetime columns, respectively, to enhance data interactivity.
+Visualizations, including bar charts, were used to showcase the top 5 content categories, reaction types, and the content type with the highest user engagement and score, providing valuable insights for Social Buzz. Additionally, slicers and timelines were added using the sentiment and datetime columns, respectively, to enhance data interactivity.
 
 
-## Conclusion and Recommendtaion
- The analysis revealed that animal content received the highest user engagement with 1,897 reactions, while audio content had the lowest engagement. Furthermore, the heart reaction was identified as the most frequently used reaction type.
+## Conclusion and Recommendation *****
+ ***8The analysis revealed that "animal content category" received the highest user engagement with 1,897 reactions. *****The "super-love reaction" and "adore" was identified as the most prevalent, indicating strong positive audience sentiment. Futhermore, audio and photo content types ***** higher compared to videos and GIFs, highlighting format preferences. 
+ 
 Recommendations include:
- 1. Continue prioritizing content in the top-performing category (Animal Content)
- 2. Given that the heart reaction was the most commonly used, future content could be designed to elicit positive emotional responses from users, increasing overall engagement.
- 3. The "Scared" reaction was predominantly associated with negative responses. Social Buzz should consider minimizing content that may trigger this reaction to avoid negatively 
-    impacting user sentiment.
+ 1. Continue prioritizing content in the top-performing category (Animal Content).
+ 2. Given that the "super-love reaction" was the most commonly used, future content could be designed to elicit positive emotional responses from users, increasing overall engagement.
+ 3. Since "audio and photo content" perform best, Social Buzz Media should focus on optimizing these formats in future campaigns.
  4.  Regularly track engagement metrics over time to identify emerging trends and adjust the content strategy accordingly.
 
 
