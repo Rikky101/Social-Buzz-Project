@@ -7,8 +7,8 @@ The key challenge was to identify the top 5 content categories based on user eng
 
 ## Data Sources
  Out of the 7 datasets provided by the company, I identified 3 relevant datasets for analysis:
- 1. Reaction Types: This dataset contained **3 columns and 17 rows**, details about the types of reactions, Sentiment, and score. 
- 2. Reaction: Contained **5 columns and 25554 rows**, the reactions given by users to various content, including Content ID, user ID, types of reations, and datetime.
+ 1. Reaction Types: This dataset contained **3 columns and 17 rows**, details about the types of reactions, Sentiment, and score. [ReactionTypes.csv](https://github.com/Rikky101/Social-Buzz-Project/blob/main/ReactionTypes%20(1).csv)
+ 2. Reaction: Contained **5 columns and 25554 rows**, the reactions given by users to various content, including Content ID, user ID, types of reations, and datetime.[Reactions.csv](https://github.com/Rikky101/Social-Buzz-Project/blob/main/Reactions.csv)
  3. Content: This dataset has **3 columns and 1001 rows**, captured details of the category about the content uploaded, including the content ID, content type and user ID. [Content.csv](https://github.com/Rikky101/Social-Buzz-Project/blob/main/Content.csv)
 
 ## Skills Demonstrated
@@ -37,7 +37,7 @@ The key challenge was to identify the top 5 content categories based on user eng
      
     v. Used the **text** function to fornat the datetime column into date and time redpectively.
    
-Voila! The reaction dataset is cleaned and ready for analysis. [Reaction_Dataset](https://github.com/user-attachments/assets/c5914fdf-f1b3-4b17-83b3-0357512ca456)
+Voila! The reaction dataset is cleaned and ready for analysis. [Reaction_Dataset](https://github.com/Rikky101/Social-Buzz-Project/blob/main/Reactions_cleaned.xlsx)
 
 2. Content Dataset:
    
@@ -50,7 +50,7 @@ Voila! The reaction dataset is cleaned and ready for analysis. [Reaction_Dataset
    iv. There were inconsistencies in the "Content category", using the **Find & Replace function**, it was corrected to give the dataset 
        a clean and final look.
    
-   Ready for analysis! [Content_Dataset](https://github.com/user-attachments/assets/d02a30e8-fdc0-44ec-a88b-c2dab2a2c88b)
+   Ready for analysis! [Content_Dataset](https://github.com/Rikky101/Social-Buzz-Project/blob/main/Content_cleaned.xlsx)
 
 4. Reaction Types dataset:
    
@@ -58,13 +58,10 @@ Voila! The reaction dataset is cleaned and ready for analysis. [Reaction_Dataset
    ii. Deleted "column 1" that adds no information to the dataset.
    iii. To make the field consistent, "type" column was formatted into "Reaction type"
 
-Ready for analysis! [Reactiontype_Datatset](https://github.com/user-attachments/assets/f5e5c632-e75a-4283-b09a-300454eea4d1)
+Ready for analysis! [Reactiontype_Datatset](https://github.com/Rikky101/Social-Buzz-Project/blob/main/ReactionTypes_cleaned.xlsx)
   
 ## Analysis and Visualization
-The three cleaned datasets were merged into a single comprehensive dataset for analysis and visualization, with **Vlook up function**. [Final_Dataset](https://github.com/user-attachments/assets/9bca1e09-2d6a-47cf-97bc-b832e5457f5f)
-
-The SUMIF function was utilized on a separate sheet to calculate the total score for each content category. The categories were then ranked to determine the top five highest-performing ones.
-Other analysis were....
+The three cleaned datasets were merged into a single comprehensive dataset for analysis and visualization, with **Vlook up function**. [Final_Dataset](https://github.com/Rikky101/Social-Buzz-Project/blob/main/Final%20dataset.xlsx)
 
 Visualizations, including bar charts, were used to showcase the top 5 content categories, reaction types, and the content type with the highest user engagement, providing valuable insights for Social Buzz. Additionally, slicers and timelines were added using the sentiment and datetime columns, respectively, to enhance data interactivity.
 
