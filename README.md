@@ -7,9 +7,9 @@ The key challenge was to identify the top 5 content categories based on user eng
 
 ## Data Sources
  Out of the 7 datasets provided by the company, I identified 3 relevant datasets for analysis:
- 1. Reaction Types: This dataset contained **3 columns and 17 rows**, details about the types of reactions, Sentiment, and score.
+ 1. Reaction Types: This dataset contained **3 columns and 17 rows**, details about the types of reactions, Sentiment, and score. 
  2. Reaction: Contained **5 columns and 25554 rows**, the reactions given by users to various content, including Content ID, user ID, types of reations, and datetime.
- 3. Content: This dataset has **3 columns and 1001 rows**, captured details of the category about the content uploaded, including the content ID, content type and user ID.
+ 3. Content: This dataset has **3 columns and 1001 rows**, captured details of the category about the content uploaded, including the content ID, content type and user ID. [Content.csv](https://github.com/Rikky101/Social-Buzz-Project/blob/main/Content.csv)
 
 ## Skills Demonstrated
 1. Data Transformation: Converted each dataset into table, to make it look more structured. Cleaned and prepared the datasets by removing irrelevant columns such as user ID, URL, fixing column titles, and ensuring the data was consistent.
@@ -28,9 +28,13 @@ The key challenge was to identify the top 5 content categories based on user eng
 1. Reaction Dataset:
    
    i. Converted the dataset to table, to make it look structured.
+   
    ii. Deleted "column 1" that adds no information to the dataset, so also the "UserID column".
+   
    iii. Using the filter function, filtered and deleted blank rows of the "type" column.
-   iv. Formatted column title of type to "Reaction type", making it more descriptive.   
+   
+   iv. Formatted column title of type to "Reaction type", making it more descriptive.
+     
     v. Used the **text** function to fornat the datetime column into date and time redpectively.
    
 Voila! The reaction dataset is cleaned and ready for analysis. [Reaction_Dataset](https://github.com/user-attachments/assets/c5914fdf-f1b3-4b17-83b3-0357512ca456)
@@ -38,14 +42,17 @@ Voila! The reaction dataset is cleaned and ready for analysis. [Reaction_Dataset
 2. Content Dataset:
    
    i. Converted the dataset to table, to make it look structured.
+   
    ii. Deleted "column 1" that adds no information to the dataset, so also the "UserID" and "URL" column.
+   
    iii. Formatted "Type" and "category" to "Content type" and "Content category" respectively.
+   
    iv. There were inconsistencies in the "Content category", using the **Find & Replace function**, it was corrected to give the dataset 
        a clean and final look.
    
    Ready for analysis! [Content_Dataset](https://github.com/user-attachments/assets/d02a30e8-fdc0-44ec-a88b-c2dab2a2c88b)
 
-3. Reaction Types dataset:
+4. Reaction Types dataset:
    
    i. Converted the dataset to table, to make it look structured.
    ii. Deleted "column 1" that adds no information to the dataset.
