@@ -65,11 +65,11 @@ Ready for analysis! [Reactiontype_Datatset](https://github.com/Rikky101/Social-B
 ## Analysis and Visualization
 The three cleaned datasets were merged into a single comprehensive dataset for analysis and visualization, with **Vlook up function**. [Final_Dataset](https://github.com/Rikky101/Social-Buzz-Project/blob/main/Final%20dataset.xlsx)
 
-Visualizations, including bar charts, were used to showcase the top 5 content categories, reaction types, and the content type with the highest user engagement and score, providing valuable insights for Social Buzz. Additionally, slicers and timelines were added using the sentiment and datetime columns, respectively, to enhance data interactivity. This can be viewed in the dashboard created for Social Buzz [Social-buzz_Dashboard](https://github.com/Rikky101/Social-Buzz-Project/blob/main/Social%20buzz.pbix). 
+Visualizations, including bar charts, were used to showcase the top 5 content categories, reaction types, and the content type with the highest user engagement and score, providing valuable insights for Social Buzz. Additionally, slicers and timelines were added using the sentiment and datetime columns, respectively, to enhance data interactivity. This can be viewed in the dashboard created for Social Buzz: [Social-buzz_Dashboard](https://github.com/Rikky101/Social-Buzz-Project/blob/main/Social%20buzz.pbix). 
 
 
 ## Conclusion and Recommendation
- The analysis revealed that "animal content category" received the highest user engagement with 1,897 reactions. The "adore reaction" was identified as the most prevalent, indicating strong positive audience sentiment. Futhermore, "audio" and photo "content types" higher compared to videos and GIFs, highlighting format preferences. 
+ The analysis revealed that "animal content category" received the highest user engagement with 1,897 reactions. The "adore reaction" was identified as the most prevalent, indicating strong positive audience sentiment. Futhermore, "audio" and photo "content types" scored higher compared to videos and GIFs, highlighting format preferences. 
  
 Recommendations include:
  1. Continue prioritizing content in the top-performing category (Animal Content).
